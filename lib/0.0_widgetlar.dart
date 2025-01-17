@@ -22,7 +22,7 @@ class ogrencikayit extends StatelessWidget {
                     Column(
                       children: [
                         Text("Pure Love"),
-                        Text(" https://www.youtube.com/watch?v=YfFp5688MYk"),
+                        Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
                         IconButton(
                             onPressed: () {}, icon: Icon(Icons.favorite)),
                       ],
