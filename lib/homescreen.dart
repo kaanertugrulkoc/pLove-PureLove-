@@ -50,11 +50,9 @@ class HomeScreen extends StatelessWidget {
         Row(
           children: [
             ogrencikayit(),
-            Text('Kart9'),
           ],
         ),
         ogrencikayit(),
-        Text('Kart10')
       ],
     );
   }
