@@ -18,24 +18,6 @@ class ogrencikayit extends StatelessWidget {
             child: Column(
               children: [
                 Text("Sosyal Medyalar"),
-                Row(
-                  children: [
-                    Column(
-                      children: [
-                        Text("Instagram "),
-                        Text("Twitter "),
-                        Text("Facebook "),
-                      ],
-                    ),
-                    Column(
-                      children: [
-                        Text("instagram.com"),
-                        Text("twitter.com"),
-                        Text("facebook.com"),
-                      ],
-                    ),
-                  ],
-                ),
               ],
             ),
           ),
