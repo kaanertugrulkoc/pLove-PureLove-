@@ -29,6 +29,7 @@ class ogrencikayit extends StatelessWidget {
                 Text("https://pinterest.com/kaanertugrulkoc"),
                 //donduruldu
                 Text("https://telegram.com/kaanertugrulkoc"),
+                // oluşturulmadı
                 Text("https://x.com/kaanertugrulkoc"),
                 // aktif
               ],
