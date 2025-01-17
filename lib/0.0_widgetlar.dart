@@ -17,7 +17,7 @@ class ogrencikayit extends StatelessWidget {
             height: 210,
             child: Column(
               children: [
-                Text("deneme "),
+                Text("KaanErtugrulKoc"),
               ],
             ),
           ),
