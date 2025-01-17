@@ -8,28 +8,44 @@ class HomeScreen extends StatelessWidget {
     return const Column(
       children: [
         Row(
-          children: [ogrencikayit(), Text('Kart1')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
-          children: [ogrencikayit(), Text('Kart2')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
-          children: [ogrencikayit(), Text('Kart3')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
-          children: [ogrencikayit(), Text('Kart4')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
-          children: [ogrencikayit(), Text('Kart5')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
-          children: [ogrencikayit(), Text('Kart6')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
-          children: [ogrencikayit(), Text('Kart7')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
-          children: [ogrencikayit(), Text('Kart8')],
+          children: [
+            ogrencikayit(),
+          ],
         ),
         Row(
           children: [
