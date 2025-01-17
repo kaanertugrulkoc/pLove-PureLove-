@@ -17,7 +17,20 @@ class ogrencikayit extends StatelessWidget {
             height: 210,
             child: Column(
               children: [
-                Text("KaanErtugrulKoc"),
+                Text("Sosyal Medya Hesaplarım"),
+                Text("https://github.com/kaanertugrulkoc"),
+                // aktif
+                Text("https://instagram.com/kaanertugrulkoc"),
+                // donduruldu
+                Text("https://instagram.com/kaanertugrulkocofficial"),
+                // donduruldu
+                Text("https://facebook.com/kaanertugrulkoc"),
+                // donduruldu
+                Text("https://pinterest.com/kaanertugrulkoc"),
+                //donduruldu
+                Text("https://telegram.com/kaanertugrulkoc"),
+                Text("https://x.com/kaanertugrulkoc"),
+                // aktif
               ],
             ),
           ),
