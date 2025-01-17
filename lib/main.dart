@@ -9,39 +9,39 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Material App',
-        home: Scaffold(
-          appBar: AppBar(
-            leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
-            centerTitle: true,
-            elevation: 10,
-            backgroundColor: Colors.blue[100],
-            shape: const RoundedRectangleBorder(
-                borderRadius: BorderRadius.only(
-              bottomRight: Radius.circular(25),
-              bottomLeft: Radius.circular(25),
-            )),
-            title: const Text('Flutter Projesi'),
-            actions: [
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.mail),
-              ),
-              IconButton(onPressed: () {}, icon: const Icon(Icons.person))
-            ],
-          ),
+      debugShowCheckedModeBanner: false,
+      title: 'Material App',
+      home: Scaffold(
+        appBar: AppBar(
+          leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
+          centerTitle: true,
+          elevation: 10,
+          backgroundColor: Colors.blue[100],
+          shape: const RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+            bottomRight: Radius.circular(25),
+            bottomLeft: Radius.circular(25),
+          )),
+          title: const Text('Flutter Projesi'),
+          actions: [
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.mail),
+            ),
+            IconButton(onPressed: () {}, icon: const Icon(Icons.person))
+          ],
+        ),
 
-          //gövde
+        //gövde
 
-          body: const SingleChildScrollView(child: HomeScreen()),
+        body: const SingleChildScrollView(child: HomeScreen()),
 
-          // düğme
-          floatingActionButton: FloatingActionButton(
+        // düğme
+        floatingActionButton: FloatingActionButton(
             onPressed: () {},
             backgroundColor: Colors.amberAccent,
-            child: const Text("tıkla"),
-          ),
-        ));
+            child: Icon(Icons.favorite)),
+      ),
+    );
   }
 }
