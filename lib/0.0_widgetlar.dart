@@ -8,16 +8,27 @@ class ogrencikayit extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {},
-      child: const Padding(
-        padding: EdgeInsets.all(8.0),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
         child: Card(
-          margin: EdgeInsetsDirectional.all(10),
+          margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
-            width: 320,
-            height: 210,
+            width: 340,
+            height: 80,
             child: Column(
               children: [
-                Text("deneme projesi"),
+                Row(
+                  children: [
+                    Column(
+                      children: [
+                        Text("Pure Love"),
+                        Text(" https://www.youtube.com/watch?v=YfFp5688MYk"),
+                        IconButton(
+                            onPressed: () {}, icon: Icon(Icons.favorite)),
+                      ],
+                    ),
+                  ],
+                ),
               ],
             ),
           ),
