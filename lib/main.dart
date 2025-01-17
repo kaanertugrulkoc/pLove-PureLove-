@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
             bottomRight: Radius.circular(25),
             bottomLeft: Radius.circular(25),
           )),
-          title: const Text('Flutter Projesi'),
+          title: const Text('Flutter Projesi '),
           actions: [
             IconButton(
               onPressed: () {},
