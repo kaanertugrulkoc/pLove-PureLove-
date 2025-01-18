@@ -23,8 +23,15 @@ class ogrencikayit extends StatelessWidget {
                       children: [
                         Text("Pure Love"),
                         Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
-                        IconButton(
-                            onPressed: () {}, icon: Icon(Icons.favorite)),
+                        Row(
+                          children: [
+                            IconButton(
+                                onPressed: () {}, icon: Icon(Icons.favorite)),
+                            IconButton(
+                                onPressed: () {},
+                                icon: Icon(Icons.favorite_outline)),
+                          ],
+                        ),
                       ],
                     ),
                   ],
