@@ -13,7 +13,7 @@ class ogrencikayit extends StatelessWidget {
         child: Card(
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
-            width: 340,
+            width: 350,
             height: 80,
             child: Column(
               children: [
