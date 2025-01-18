@@ -9,27 +9,26 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: 'PureLove',
       home: Scaffold(
         appBar: AppBar(
           leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
           centerTitle: true,
           elevation: 10,
-          backgroundColor: const Color.fromARGB(255, 124, 130, 133),
+          backgroundColor: const Color.fromARGB(255, 194, 137, 243),
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
             bottomRight: Radius.circular(25),
             bottomLeft: Radius.circular(25),
           )),
-          title: const Text(
-              'Sosyal Media project'), // isim daha sonra değişecek  !
+          title: const Text('PureLove'), // isim daha sonra değişecek  !
           actions: [
             IconButton(
               onPressed: () {},
               icon: const Icon(Icons.mail),
             ),
-            IconButton(onPressed: () {}, icon: const Icon(Icons.person))
+            IconButton(onPressed: () {}, icon: const Icon(Icons.send))
           ],
         ),
 
