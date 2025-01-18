@@ -21,7 +21,7 @@ class ogrencikayit extends StatelessWidget {
                   children: [
                     Column(
                       children: [
-                        // Sosyal Media project
+                        // Sosyal Media projesi
                         Text(
                             "Pure Love Application"), // kişi ismleri yazacak daha sonra
                         SizedBox(
