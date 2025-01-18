@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      title: 'Material App',
+      title: 'PureLove',
       home: Scaffold(
         appBar: AppBar(
           leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
