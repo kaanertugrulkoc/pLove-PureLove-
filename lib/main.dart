@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
             onPressed: () {},
             backgroundColor: Colors.amberAccent,
-            child: Icon(Icons.favorite)),
+            child: Icon(Icons.add_alert_rounded)),
       ),
     );
   }
