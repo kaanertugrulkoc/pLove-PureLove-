@@ -14,13 +14,16 @@ class ogrencikayit extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 220,
+            height: 230,
             child: Column(
               children: [
                 Row(
                   children: [
                     Column(
                       children: [
+                        SizedBox(
+                          height: 10,
+                        ),
                         // Sosyal Media projesi
                         Text(
                             "Pure Love Application"), // kişi ismleri yazacak daha sonra
@@ -56,13 +59,14 @@ class ogrencikayit extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: const Color.fromARGB(255, 219, 218, 216),
                             border: Border.all(
-                              color: Colors.black,
-                              width: 1,
+                              color: const Color.fromARGB(255, 233, 196, 196),
+                              width: 2,
                             ),
                           ),
                           child: Container(
                             width: 300,
-                            height: 100,
+                            height: 110,
+                            padding: const EdgeInsets.all(3),
                             child: const Text(
                                 "Bu uygulama Flutter ile yapılmıştır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır."),
                           ),

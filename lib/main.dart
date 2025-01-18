@@ -39,8 +39,9 @@ class MyApp extends StatelessWidget {
         // düğme
         floatingActionButton: FloatingActionButton(
             onPressed: () {},
+            mini: true,
             backgroundColor: Colors.amberAccent,
-            child: Icon(Icons.add_alert_rounded)),
+            child: Icon(Icons.thumb_up)),
       ),
     );
   }
