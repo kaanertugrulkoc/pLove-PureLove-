@@ -41,7 +41,8 @@ class MyApp extends StatelessWidget {
             onPressed: () {},
             mini: true,
             backgroundColor: Colors.amberAccent,
-            child: Icon(Icons.thumb_up)),
+            child: Icon(Icons.thumb_up),
+            tooltip: "Beğen"),
       ),
     );
   }
