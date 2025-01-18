@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
             bottomRight: Radius.circular(25),
             bottomLeft: Radius.circular(25),
           )),
-          title: const Text('PureLove'), // isim daha sonra değişecek  !
+          title: const Text('PureLove',
+              style: TextStyle(fontSize: 24)), // isim daha sonra değişecek  !
           actions: [
             IconButton(
               onPressed: () {},
