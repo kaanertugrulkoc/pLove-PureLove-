@@ -26,10 +26,9 @@ class ogrencikayit extends StatelessWidget {
                         Row(
                           children: [
                             IconButton(
-                                onPressed: () {}, icon: Icon(Icons.favorite)),
+                                onPressed: () {}, icon: Icon(Icons.fastfood)),
                             IconButton(
-                                onPressed: () {},
-                                icon: Icon(Icons.favorite_outline)),
+                                onPressed: () {}, icon: Icon(Icons.fastfood)),
                           ],
                         ),
                       ],
