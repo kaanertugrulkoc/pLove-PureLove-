@@ -14,7 +14,7 @@ class ogrencikayit extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 85,
+            height: 100,
             child: Column(
               children: [
                 Row(
@@ -24,9 +24,15 @@ class ogrencikayit extends StatelessWidget {
                         // Sosyal Media project
                         Text(
                             "Pure Love Application"), // kişi ismleri yazacak daha sonra
+                        SizedBox(
+                          height: 10,
+                        ),
 
                         //şuanda test için girilen text daha sonra mesajlar yeralacak
                         Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
+                        SizedBox(
+                          height: 10,
+                        ),
                         Row(
                           children: [
                             IconButton(
