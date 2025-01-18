@@ -24,6 +24,8 @@ class ogrencikayit extends StatelessWidget {
                         // Sosyal Media project
                         Text(
                             "Pure Love Application"), // kişi ismleri yazacak daha sonra
+
+                        //şuanda test için girilen text daha sonra mesajlar yeralacak
                         Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
                         Row(
                           children: [
