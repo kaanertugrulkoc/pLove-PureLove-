@@ -1,7 +1,7 @@
 # Sosyal Medya Projesi
 PureLove
 
-# Ara ara uygulama ekran paylaşımı yapılacaktır
+# Ara ara uygulamanın ekran paylaşımları yapılacaktır
 
 #
 #
