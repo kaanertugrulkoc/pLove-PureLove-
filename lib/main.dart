@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
             bottomRight: Radius.circular(25),
             bottomLeft: Radius.circular(25),
           )),
-          title: const Text('Flutter Projesi'),
+          title:
+              const Text('Sosyal Media project'), // isim değişecek daha sonra !
           actions: [
             IconButton(
               onPressed: () {},

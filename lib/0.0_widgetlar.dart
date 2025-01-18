@@ -21,7 +21,7 @@ class ogrencikayit extends StatelessWidget {
                   children: [
                     Column(
                       children: [
-                        Text("Pure Love"),
+                        Text("Pure Love Application"),
                         Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
                         Row(
                           children: [
