@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
           centerTitle: true,
           elevation: 10,
-          backgroundColor: Colors.blue[100],
+          backgroundColor: const Color.fromARGB(255, 124, 130, 133),
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
             bottomRight: Radius.circular(25),
