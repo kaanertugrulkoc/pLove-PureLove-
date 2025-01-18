@@ -14,7 +14,7 @@ class ogrencikayit extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 200,
+            height: 220,
             child: Column(
               children: [
                 Row(
@@ -51,6 +51,21 @@ class ogrencikayit extends StatelessWidget {
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.search)),
                           ],
+                        ),
+                        DecoratedBox(
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 219, 218, 216),
+                            border: Border.all(
+                              color: Colors.black,
+                              width: 1,
+                            ),
+                          ),
+                          child: Container(
+                            width: 300,
+                            height: 100,
+                            child: const Text(
+                                "Bu uygulama Flutter ile yapılmıştır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır."),
+                          ),
                         ),
                       ],
                     ),
