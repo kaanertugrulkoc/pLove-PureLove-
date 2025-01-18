@@ -33,6 +33,8 @@ class ogrencikayit extends StatelessWidget {
                                 icon: Icon(Icons.add_alarm_rounded)),
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.favorite)),
+                            IconButton(
+                                onPressed: () {}, icon: Icon(Icons.mail)),
                           ],
                         ),
                       ],
