@@ -13,8 +13,8 @@ class ogrencikayit extends StatelessWidget {
         child: Card(
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
-            width: 350,
-            height: 100,
+            width: 355,
+            height: 85,
             child: Column(
               children: [
                 Row(
@@ -23,7 +23,6 @@ class ogrencikayit extends StatelessWidget {
                       children: [
                         Text("Pure Love"),
                         Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
-                        Text('https://www.youtube.com/watch?v=M3yv6eRU8KI'),
                         IconButton(
                             onPressed: () {}, icon: Icon(Icons.favorite)),
                       ],
