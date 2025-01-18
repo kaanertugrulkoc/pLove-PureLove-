@@ -14,7 +14,7 @@ class ogrencikayit extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 150,
+            height: 200,
             child: Column(
               children: [
                 Row(
@@ -35,10 +35,6 @@ class ogrencikayit extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            TextField(
-                              decoration:
-                                  InputDecoration(hintText: 'Yorum Yap'),
-                            ),
                             IconButton(
                                 onPressed: () {},
                                 icon: Icon(Icons.add_a_photo_outlined)),
