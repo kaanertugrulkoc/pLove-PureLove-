@@ -1,4 +1,4 @@
-# FlutterProjelerim
+# Sosyal Medya Projesi
 PureLove
 
 # Ara ara uygulama ekran paylaşımı yapılacaktır
