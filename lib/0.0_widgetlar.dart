@@ -21,7 +21,9 @@ class ogrencikayit extends StatelessWidget {
                   children: [
                     Column(
                       children: [
-                        Text("Pure Love Application"),
+                        // Sosyal Media project
+                        Text(
+                            "Pure Love Application"), // kişi ismleri yazacak daha sonra
                         Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
                         Row(
                           children: [
