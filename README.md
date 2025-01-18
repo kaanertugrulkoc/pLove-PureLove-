@@ -6,8 +6,4 @@ PureLove
 #
 #
 #
-
-![image](https://github.com/user-attachments/assets/9762f8fa-7e7a-4811-a756-96cc52567f36)
-
-
-
+![image](https://github.com/user-attachments/assets/94c862d6-4031-4be1-8fe6-11d0fb883cbc)
