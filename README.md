@@ -3,8 +3,4 @@ PureLove
 
 # Ara ara uygulamanın ekran paylaşımları yapılacaktır
 
-#
-#
-#
-![image](https://github.com/user-attachments/assets/21feda3a-aac9-4695-bbc3-6763db24f5dc)
-
+#![image](https://github.com/user-attachments/assets/ebf4d423-f96b-41e4-99df-7590499618f9)
