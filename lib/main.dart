@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
               onPressed: () {},
               icon: const Icon(Icons.mail),
             ),
+            IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
             IconButton(onPressed: () {}, icon: const Icon(Icons.send))
           ],
         ),
