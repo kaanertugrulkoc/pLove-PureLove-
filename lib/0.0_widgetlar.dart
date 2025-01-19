@@ -15,7 +15,7 @@ class MesajKarti extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 360,
+            height: 380,
             child: Column(
               children: [
                 Row(
@@ -39,8 +39,8 @@ class MesajKarti extends StatelessWidget {
 
                         ClipOval(
                           child: Container(
-                            height: 75,
-                            width: 75,
+                            height: 100,
+                            width: 100,
                             color: const Color.fromARGB(255, 158, 125, 161),
                             child: const Center(child: Icon(Icons.person)),
                           ),
