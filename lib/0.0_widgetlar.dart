@@ -27,6 +27,7 @@ class ogrencikayit extends StatelessWidget {
                         // Sosyal Media projesi
                         Text("Pure Love Application",
                             style: TextStyle(
+                                fontStyle: FontStyle.italic,
                                 fontSize:
                                     21)), // kişi ismleri yazacak daha sonra
                         SizedBox(
