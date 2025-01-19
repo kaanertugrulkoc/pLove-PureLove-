@@ -51,7 +51,14 @@ class MesajKarti extends StatelessWidget {
                         ),
 
                         //şuanda test için girilen text daha sonra mesajlar yeralacak
-                        Text(" https://www.youtube.com/watch?v=YfFp5688MYk "),
+                        Text(
+                          " https://www.youtube.com/watch?v=YfFp5688MYk ",
+                          style: TextStyle(
+                            fontStyle: FontStyle.italic,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13,
+                          ),
+                        ),
                         SizedBox(
                           height: 10,
                         ),
