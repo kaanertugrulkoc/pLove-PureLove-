@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
               )), // isim daha sonra değişecek!
           actions: [
             IconButton(onPressed: () {}, icon: Icon(Icons.call)),
-            IconButton(onPressed: () {}, icon: const Icon(Icons.send))
+            IconButton(onPressed: () {}, icon: const Icon(Icons.message)),
           ],
         ),
 
