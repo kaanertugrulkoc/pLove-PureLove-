@@ -49,6 +49,7 @@ class _MyAppState extends State<MyApp> {
         bottomNavigationBar: BottomNavigationBar(
             currentIndex: 1,
             type: BottomNavigationBarType.fixed,
+            backgroundColor: const Color.fromARGB(255, 230, 214, 243),
             items: [
               BottomNavigationBarItem(
                   icon: Icon(Icons.home), label: "Anasayfa"),
