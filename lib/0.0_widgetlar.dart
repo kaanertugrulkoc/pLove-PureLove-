@@ -15,7 +15,7 @@ class ogrencikayit extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 245,
+            height: 370,
             child: Column(
               children: [
                 Row(
@@ -32,8 +32,22 @@ class ogrencikayit extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontSize:
                                     21)), // kişi ismleri yazacak daha sonra
+
                         SizedBox(
                           height: 10,
+                        ),
+
+                        ClipOval(
+                          child: Container(
+                            height: 75,
+                            width: 75,
+                            color: const Color.fromARGB(255, 111, 113, 116),
+                            child: const Center(child: Icon(Icons.person)),
+                          ),
+                        ),
+
+                        SizedBox(
+                          height: 50,
                         ),
 
                         //şuanda test için girilen text daha sonra mesajlar yeralacak
