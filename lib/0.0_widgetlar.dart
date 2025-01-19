@@ -11,10 +11,11 @@ class ogrencikayit extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Card(
+          color: const Color.fromARGB(255, 235, 219, 239),
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 235,
+            height: 245,
             child: Column(
               children: [
                 Row(

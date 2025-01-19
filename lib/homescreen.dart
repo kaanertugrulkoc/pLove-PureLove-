@@ -12,46 +12,6 @@ class HomeScreen extends StatelessWidget {
             ogrencikayit(),
           ],
         ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
-        Row(
-          children: [
-            ogrencikayit(),
-          ],
-        ),
       ],
     );
   }
