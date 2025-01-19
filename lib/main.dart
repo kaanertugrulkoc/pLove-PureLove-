@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
                 fontSize: 24,
                 // fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,
-              )), // isim daha sonra değişecek  !
+              )), // isim daha sonra değişecek!
           actions: [
             IconButton(
               onPressed: () {},
