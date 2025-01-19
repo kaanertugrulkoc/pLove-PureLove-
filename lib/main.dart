@@ -18,8 +18,8 @@ class _MyAppState extends State<MyApp> {
       title: 'PureLove',
       home: Scaffold(
         appBar: AppBar(
-          leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
-          centerTitle: true,
+          //  leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
+          //   centerTitle: true,
           elevation: 10,
           backgroundColor: const Color.fromARGB(255, 194, 137, 243),
           shape: const RoundedRectangleBorder(
@@ -34,11 +34,7 @@ class _MyAppState extends State<MyApp> {
                 fontWeight: FontWeight.bold,
               )), // isim daha sonra değişecek!
           actions: [
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(Icons.mail),
-            ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.other_houses)),
             IconButton(onPressed: () {}, icon: const Icon(Icons.send))
           ],
         ),
