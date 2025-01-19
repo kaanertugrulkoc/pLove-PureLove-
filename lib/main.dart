@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
                 fontSize: 24,
                 // fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,
-              )), // isim daha sonra değişecek!
+              )), // isim daha sonra değişecek !
           actions: [
             IconButton(onPressed: () {}, icon: Icon(Icons.call)),
             IconButton(onPressed: () {}, icon: const Icon(Icons.message)),
