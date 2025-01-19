@@ -1,4 +1,4 @@
 # Sosyal Medya Projesi
 # PureLove
 Ara ara uygulamanın ekran paylaşımları yapılacaktır
-![image](https://github.com/user-attachments/assets/30177bb8-e3b0-4f36-8a8a-0adafa6217cc)
+![image](https://github.com/user-attachments/assets/beff366b-1db0-4e88-8c3c-b84c9973c641)
