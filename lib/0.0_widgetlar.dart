@@ -15,7 +15,7 @@ class ogrencikayit extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 400,
+            height: 360,
             child: Column(
               children: [
                 Row(
@@ -55,6 +55,22 @@ class ogrencikayit extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
+                        DecoratedBox(
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 219, 218, 216),
+                            border: Border.all(
+                              color: const Color.fromARGB(255, 233, 196, 196),
+                              width: 2,
+                            ),
+                          ),
+                          child: Container(
+                            width: 330,
+                            height: 110,
+                            padding: const EdgeInsets.all(4),
+                            child: const Text(
+                                "Bu bir sosyal medya uygulamasıdır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır; Engelleme özelliği yok ama :)"),
+                          ),
+                        ),
                         Row(
                           children: [
                             IconButton(
@@ -73,35 +89,12 @@ class ogrencikayit extends StatelessWidget {
                                 onPressed: () {}, icon: Icon(Icons.thumb_up)),
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.search)),
+                            IconButton(
+                                onPressed: () {}, icon: Icon(Icons.send)),
                           ],
-                        ),
-                        DecoratedBox(
-                          decoration: BoxDecoration(
-                            color: const Color.fromARGB(255, 219, 218, 216),
-                            border: Border.all(
-                              color: const Color.fromARGB(255, 233, 196, 196),
-                              width: 2,
-                            ),
-                          ),
-                          child: Container(
-                            width: 330,
-                            height: 110,
-                            padding: const EdgeInsets.all(4),
-                            child: const Text(
-                                "Bu bir sosyal medya uygulamasıdır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır; Engelleme özelliği yok ama :)"),
-                          ),
                         ),
                       ],
                     ),
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  children: [
-                    Spacer(),
-                    IconButton(onPressed: () {}, icon: const Icon(Icons.send))
                   ],
                 ),
               ],
