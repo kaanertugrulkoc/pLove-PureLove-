@@ -56,6 +56,9 @@ class ogrencikayit extends StatelessWidget {
                                 onPressed: () {},
                                 icon: Icon(Icons.person_2_rounded)),
                             IconButton(
+                                onPressed: () {}, icon: Icon(Icons.thumb_down)),
+                            Icon(Icons.thumb_up),
+                            IconButton(
                                 onPressed: () {}, icon: Icon(Icons.search)),
                           ],
                         ),
