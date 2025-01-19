@@ -47,7 +47,7 @@ class ogrencikayit extends StatelessWidget {
                         ),
 
                         SizedBox(
-                          height: 50,
+                          height: 40,
                         ),
 
                         //şuanda test için girilen text daha sonra mesajlar yeralacak
