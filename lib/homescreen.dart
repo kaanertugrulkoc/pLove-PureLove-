@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
       children: [
         Row(
           children: [
-            ogrencikayit(),
+            MesajKarti(),
           ],
         ),
       ],

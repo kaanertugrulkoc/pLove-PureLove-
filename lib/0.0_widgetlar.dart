@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 export 'package:flutter/material.dart';
 
-class ogrencikayit extends StatelessWidget {
-  const ogrencikayit({super.key});
+class MesajKarti extends StatelessWidget {
+  const MesajKarti({super.key});
 
   @override
   Widget build(BuildContext context) {
