@@ -28,6 +28,7 @@ class ogrencikayit extends StatelessWidget {
                         Text("Pure Love Application",
                             style: TextStyle(
                                 fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.bold,
                                 fontSize:
                                     21)), // kişi ismleri yazacak daha sonra
                         SizedBox(
