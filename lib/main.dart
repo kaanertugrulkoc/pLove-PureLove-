@@ -3,9 +3,14 @@ import 'package:flutterprojelerim/homescreen.dart';
 
 void main() => runApp(const MyApp());
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -39,16 +44,23 @@ class MyApp extends StatelessWidget {
 
         //gövde
 
-        body: const SingleChildScrollView(child: HomeScreen()),
-
-        // düğme
-        floatingActionButton: FloatingActionButton(
-            onPressed: () {},
-            mini: true,
-            backgroundColor: Colors.amberAccent,
-            child: Icon(Icons.thumb_up),
-            tooltip: "Beğen"),
+        body: SingleChildScrollView(child: HomeScreen()),
+        bottomNavigationBar: BottomNavigationBar(
+            currentIndex: 1,
+            type: BottomNavigationBarType.fixed,
+            items: [
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.home), label: "Anasayfa"),
+              BottomNavigationBarItem(icon: Icon(Icons.search), label: "Arama"),
+              BottomNavigationBarItem(icon: Icon(Icons.add), label: "Ekle"),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.notifications), label: "Bildirimler"),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.person), label: "Profil"),
+            ]),
       ),
+
+      // düğme
     );
   }
 }
