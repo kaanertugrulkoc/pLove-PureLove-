@@ -84,11 +84,11 @@ class ogrencikayit extends StatelessWidget {
                             ),
                           ),
                           child: Container(
-                            width: 300,
+                            width: 320,
                             height: 110,
                             padding: const EdgeInsets.all(4),
                             child: const Text(
-                                "Bu bir sosyal medya uygulamasıdır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır."),
+                                "Bu bir sosyal medya uygulamasıdır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır; Engelleme özelliği yok ama :)"),
                           ),
                         ),
                       ],
