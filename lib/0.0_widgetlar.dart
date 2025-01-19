@@ -15,7 +15,7 @@ class ogrencikayit extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 370,
+            height: 400,
             child: Column(
               children: [
                 Row(
@@ -84,7 +84,7 @@ class ogrencikayit extends StatelessWidget {
                             ),
                           ),
                           child: Container(
-                            width: 320,
+                            width: 330,
                             height: 110,
                             padding: const EdgeInsets.all(4),
                             child: const Text(
@@ -93,6 +93,15 @@ class ogrencikayit extends StatelessWidget {
                         ),
                       ],
                     ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  children: [
+                    Spacer(),
+                    IconButton(onPressed: () {}, icon: const Icon(Icons.send))
                   ],
                 ),
               ],
