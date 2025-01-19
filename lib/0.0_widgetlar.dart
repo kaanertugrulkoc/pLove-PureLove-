@@ -41,7 +41,7 @@ class ogrencikayit extends StatelessWidget {
                           child: Container(
                             height: 75,
                             width: 75,
-                            color: const Color.fromARGB(255, 111, 113, 116),
+                            color: const Color.fromARGB(255, 158, 125, 161),
                             child: const Center(child: Icon(Icons.person)),
                           ),
                         ),
