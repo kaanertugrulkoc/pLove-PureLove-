@@ -76,7 +76,7 @@ class ogrencikayit extends StatelessWidget {
                             height: 110,
                             padding: const EdgeInsets.all(3),
                             child: const Text(
-                                "Bu uygulama Flutter ile yapılmıştır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır."),
+                                "Bu bir sosyal medya uygulamasıdır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır."),
                           ),
                         ),
                       ],
