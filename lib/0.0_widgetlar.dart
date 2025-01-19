@@ -26,7 +26,7 @@ class ogrencikayit extends StatelessWidget {
                           height: 10,
                         ),
                         // Sosyal Media projesi
-                        Text("Pure Love Application",
+                        Text("kaanertugrulkoc",
                             style: TextStyle(
                                 fontStyle: FontStyle.italic,
                                 fontWeight: FontWeight.bold,
