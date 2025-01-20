@@ -17,10 +17,12 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'PureLove',
+
       home: Scaffold(
         appBar: AppBar(
-          //  leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
-          //   centerTitle: true,
+          leading:
+              IconButton(onPressed: () {}, icon: const Icon(Icons.favorite)),
+          centerTitle: true,
           elevation: 10,
           backgroundColor: const Color.fromARGB(255, 194, 137, 243),
           shape: const RoundedRectangleBorder(
@@ -34,6 +36,7 @@ class _MyAppState extends State<MyApp> {
                 fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,
               )), // isim daha sonra değişecek !
+
           actions: [
             IconButton(onPressed: () {}, icon: Icon(Icons.call)),
             IconButton(onPressed: () {}, icon: const Icon(Icons.message)),
