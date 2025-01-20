@@ -41,7 +41,7 @@ class MesajKarti extends StatelessWidget {
                           child: Container(
                             height: 100,
                             width: 100,
-                            color: const Color.fromARGB(255, 158, 125, 161),
+                            color: const Color.fromARGB(255, 158, 125, 162),
                             child: const Center(child: Icon(Icons.person)),
                           ),
                         ),
