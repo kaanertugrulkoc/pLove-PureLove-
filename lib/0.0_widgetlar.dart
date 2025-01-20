@@ -15,7 +15,7 @@ class MesajKarti extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 399,
+            height: 425,
             child: Column(
               children: [
                 Row(
@@ -75,8 +75,8 @@ class MesajKarti extends StatelessWidget {
                           ),
                           child: Container(
                             width: 330,
-                            height: 110,
-                            padding: const EdgeInsets.all(4),
+                            height: 130,
+                            padding: const EdgeInsets.all(15),
                             child: const Text(
                                 "Bu bir sosyal medya uygulamasıdır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır; Engelleme özelliği yok ama :)"),
                           ),
