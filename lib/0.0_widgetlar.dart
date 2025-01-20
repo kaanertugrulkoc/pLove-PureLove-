@@ -15,7 +15,7 @@ class MesajKarti extends StatelessWidget {
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
             width: 355,
-            height: 380,
+            height: 399,
             child: Column(
               children: [
                 Row(
@@ -46,7 +46,7 @@ class MesajKarti extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: 1,
+                          height: 10,
                         ),
                         Text('kaanertugrulkoc'),
                         SizedBox(
