@@ -1,18 +1,15 @@
 import 'package:flutterprojelerim/0.0_widgetlar.dart';
 
-class aramasayfasi extends StatelessWidget {
-  const aramasayfasi({super.key});
-
+class AramaSayfasi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [
-        Row(
-          children: [
-            MesajKarti(),
-          ],
+    return Scaffold(
+      body: Center(
+        child: Text(
+          'Search Page',
+          style: TextStyle(fontSize: 24),
         ),
-      ],
+      ),
     );
   }
 }
