@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('PureLove',
               style: TextStyle(
                 fontSize: 24,
-                // fontStyle: FontStyle.italic,
+                fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,
               )), // isim daha sonra değişecek !
           actions: [
