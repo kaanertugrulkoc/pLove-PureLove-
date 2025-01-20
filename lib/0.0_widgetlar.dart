@@ -45,7 +45,10 @@ class MesajKarti extends StatelessWidget {
                             child: const Center(child: Icon(Icons.person)),
                           ),
                         ),
-
+                        SizedBox(
+                          height: 1,
+                        ),
+                        Text('kaanertugrulkoc'),
                         SizedBox(
                           height: 40,
                         ),
