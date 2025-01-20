@@ -1,4 +1,5 @@
 import 'package:flutterprojelerim/0.0_widgetlar.dart';
+import 'package:flutterprojelerim/aramasayfasi.dart';
 import 'package:flutterprojelerim/homescreen.dart';
 
 void main() => runApp(const MyApp());
@@ -49,7 +50,10 @@ class _MyAppState extends State<MyApp> {
             items: [
               BottomNavigationBarItem(
                   icon: Icon(Icons.home), label: "Anasayfa"),
-              BottomNavigationBarItem(icon: Icon(Icons.search), label: "Arama"),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.search),
+                label: "Arama",
+              ),
               BottomNavigationBarItem(icon: Icon(Icons.add), label: "Ekle"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.notifications), label: "Bildirim"),
