@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
               BottomNavigationBarItem(icon: Icon(Icons.search), label: "Arama"),
               BottomNavigationBarItem(icon: Icon(Icons.add), label: "Ekle"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.notifications), label: "Bildirimler"),
+                  icon: Icon(Icons.notifications), label: "Bildirim"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.video_collection), label: "Reels"),
               BottomNavigationBarItem(
