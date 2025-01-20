@@ -48,7 +48,10 @@ class MesajKarti extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
-                        Text('kaanertugrulkoc'),
+                        Text(
+                          'kaanertugrulkoc',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                         SizedBox(
                           height: 40,
                         ),
