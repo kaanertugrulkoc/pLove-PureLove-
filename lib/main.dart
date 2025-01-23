@@ -57,7 +57,8 @@ class _MyAppState extends State<MyApp> {
                 icon: Icon(Icons.search),
                 label: "Arama",
               ),
-              BottomNavigationBarItem(icon: Icon(Icons.add), label: "Ekle"),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.add_a_photo_outlined), label: "Yayınla"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.notifications), label: "Bildirim"),
               BottomNavigationBarItem(
