@@ -82,7 +82,7 @@ class MesajKarti extends StatelessWidget {
                             padding: const EdgeInsets.all(15),
                             child: const Text(
                                 /* "Bu bir sosyal medya uygulamasıdır. Uygulama içerisinde kullanıcılar arası mesajlaşma, fotoğraf paylaşma, beğenme, arkadaş ekleme, arama gibi özellikler bulunmaktadır Engelleme özelliği yok ama ;)" */
-                                'Vallahi görmeeedeen seevdim Aşkın yaakar bak eriiidim Acılarlaaa gelemedim Vurgunum Yaa R... Mecnun gibi güülmez oldum Hasreetiinle yanar oldum, Oturdum aağladıım durdum Aaşıığım Ya R...'),
+                                'Vallahii görmeeedeen seevdim Aşkın yaakar bak eriiidim Acılarlaaa gelemedim Vurgunum Yaa R... Mecnun gibi güülmez oldum Hasreetiinle yanar oldum, Oturdum aağladıım durdum Aaşıığım Ya R...'),
                           ),
                         ),
                         Row(
