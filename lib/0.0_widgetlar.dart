@@ -92,12 +92,12 @@ class MesajKarti extends StatelessWidget {
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.mail)),
                             IconButton(
-                                onPressed: () {},
-                                icon: Icon(Icons.person_2_rounded)),
-                            IconButton(
                                 onPressed: () {}, icon: Icon(Icons.thumb_down)),
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.thumb_up)),
+                            SizedBox(
+                              width: 20,
+                            ),
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.send)),
                           ],
