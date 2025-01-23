@@ -88,9 +88,6 @@ class MesajKarti extends StatelessWidget {
                         Row(
                           children: [
                             IconButton(
-                                onPressed: () {},
-                                icon: Icon(Icons.add_a_photo_outlined)),
-                            IconButton(
                                 onPressed: () {}, icon: Icon(Icons.favorite)),
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.mail)),
@@ -101,8 +98,6 @@ class MesajKarti extends StatelessWidget {
                                 onPressed: () {}, icon: Icon(Icons.thumb_down)),
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.thumb_up)),
-                            IconButton(
-                                onPressed: () {}, icon: Icon(Icons.search)),
                             IconButton(
                                 onPressed: () {}, icon: Icon(Icons.send)),
                           ],
