@@ -1,5 +1,4 @@
 import 'package:flutterprojelerim/0.0_widgetlar.dart';
-import 'package:flutterprojelerim/aramasayfasi.dart';
 import 'package:flutterprojelerim/homescreen.dart';
 
 void main() => runApp(const MyApp());
@@ -20,9 +19,9 @@ class _MyAppState extends State<MyApp> {
 
       home: Scaffold(
         appBar: AppBar(
-          leading:
-              IconButton(onPressed: () {}, icon: const Icon(Icons.favorite)),
-          centerTitle: true,
+          // leading:
+          //     IconButton(onPressed: () {}, icon: const Icon(Icons.favorite)),
+          // centerTitle: true,
           elevation: 10,
           backgroundColor: const Color.fromARGB(255, 194, 137, 243),
           shape: const RoundedRectangleBorder(

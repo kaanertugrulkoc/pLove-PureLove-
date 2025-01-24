@@ -49,7 +49,7 @@ class MesajKarti extends StatelessWidget {
                           height: 10,
                         ),
                         Text(
-                          'sŞs',
+                          'kaanertugrulkoc',
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         SizedBox(
