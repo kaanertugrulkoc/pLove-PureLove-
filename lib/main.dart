@@ -50,7 +50,8 @@ class _MyAppState extends State<MyApp> {
                   size: 25,
                 )),
             IconButton(
-                onPressed: () {}, icon: const Icon(Icons.message, size: 25)),
+                onPressed: () {},
+                icon: const Icon(Icons.mark_email_unread, size: 25)),
           ],
         ),
 
