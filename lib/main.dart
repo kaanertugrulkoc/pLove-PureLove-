@@ -59,11 +59,11 @@ class _MyAppState extends State<MyApp> {
               BottomNavigationBarItem(
                   icon: Icon(Icons.add_a_photo_outlined), label: "Yayınla"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.notifications), label: "Bildirim"),
+                  icon: Icon(Icons.cameraswitch), label: "Durum"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.video_collection), label: "Reels"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.cameraswitch), label: "Durum"),
+                  icon: Icon(Icons.notifications), label: "Bildirim"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.person), label: "Profil"),
             ]),
