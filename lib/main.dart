@@ -1,5 +1,5 @@
 import 'package:flutterprojelerim/0.0_widgetlar.dart';
-import 'package:flutterprojelerim/homescreen.dart';
+import 'package:flutterprojelerim/0.1_homescreen.dart';
 
 void main() => runApp(const MyApp());
 
