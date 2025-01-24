@@ -37,9 +37,20 @@ class _MyAppState extends State<MyApp> {
               )), // isim daha sonra değişecek !
 
           actions: [
-            IconButton(onPressed: () {}, icon: Icon(Icons.call)),
-            IconButton(onPressed: () {}, icon: Icon(Icons.groups_3_outlined)),
-            IconButton(onPressed: () {}, icon: const Icon(Icons.message)),
+            IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.call,
+                  size: 25,
+                )),
+            IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.groups_3_outlined,
+                  size: 25,
+                )),
+            IconButton(
+                onPressed: () {}, icon: const Icon(Icons.message, size: 25)),
           ],
         ),
 
