@@ -63,6 +63,8 @@ class _MyAppState extends State<MyApp> {
               BottomNavigationBarItem(
                   icon: Icon(Icons.video_collection), label: "Reels"),
               BottomNavigationBarItem(
+                  icon: Icon(Icons.cameraswitch), label: "Durum"),
+              BottomNavigationBarItem(
                   icon: Icon(Icons.person), label: "Profil"),
             ]),
       ),
