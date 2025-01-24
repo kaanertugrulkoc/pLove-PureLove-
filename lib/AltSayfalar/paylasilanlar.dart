@@ -8,7 +8,7 @@ class AramaSayfasi extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Text(
-          'Paylaşım sayfası ',
+          'Beğeni sayfası ',
           style: TextStyle(fontSize: 24),
         ),
       ),
