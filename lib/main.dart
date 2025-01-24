@@ -51,6 +51,9 @@ class _MyAppState extends State<MyApp> {
                 )),
             IconButton(
                 onPressed: () {},
+                icon: const Icon(Icons.notifications, size: 25)),
+            IconButton(
+                onPressed: () {},
                 icon: const Icon(Icons.mark_email_unread, size: 25)),
           ],
         ),
@@ -75,8 +78,6 @@ class _MyAppState extends State<MyApp> {
                   icon: Icon(Icons.cameraswitch), label: "Durum"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.video_collection), label: "Reels"),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.notifications), label: "Bildirim"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.person), label: "Profil"),
             ]),
