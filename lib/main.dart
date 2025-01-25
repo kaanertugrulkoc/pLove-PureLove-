@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
             bottomRight: Radius.circular(25),
             bottomLeft: Radius.circular(25),
           )),
-          title: const Text('PureLove',
+          title: const Text('pLove',
               style: TextStyle(
                 fontSize: 24,
                 fontStyle: FontStyle.italic,
