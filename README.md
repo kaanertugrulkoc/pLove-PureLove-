@@ -2,7 +2,7 @@
 # Hakkında
 Uygulamamız whatsapp - telegram - facebook - instagram - twitter - tiktok gibi popüler uygulamaların özellikleri bünyesinde barındıran ve tek bir uygulama şeklinde tasarlanmaktadır sadece içinde engelleme gibi bir yapı olmayacaktır onun yerine sessize al seçeneği ile bildirim gibi rahatsız edici durumlar engellenmiş olacaktır.
 #
-görsel tasarım tamamı yakın zamanda değiştirilerek daha efektif ve kompak hale getirilecektir şuanda taslak olarak geliştirilmekte olup front end tarafı yazılarak uygulama topolojisi oluşturulmaktadır en niyahetinde backend tarafıda yazılarak uygulama beğenilerinize sunulacaktır.
+görsel tasarım tamamı yakın zamanda değiştirilerek daha efektif ve kompak hale getirilecektir şuanda taslak olarak geliştirilmekte olup front end tarafı yazılarak uygulama topolojisi oluşturulmaktadır en niyahetinde backend tarafıda yazılıp bitirildikten sonra uygulama beğenilerinize sunulacaktır.
 #
 ayrıca tasarım aşamalarının eğitim videoları youtube kanalımızda yayınlanacaktır istifade etmek isteyenler takipte kalabilir.
 
