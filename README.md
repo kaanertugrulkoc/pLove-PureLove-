@@ -6,4 +6,4 @@ görsel tasarım tamamı yakın zamanda değiştirilerek daha efektif ve kompak 
 #
 ayrıca tasarım aşamalarının eğitim videoları youtube kanalımızda yayınlanacaktır istifade etmek isteyenler takipte kalabilir.
 
-![image](https://github.com/user-attachments/assets/e2617fe8-b146-4eef-a775-5848b5f41f5e)
+![image](https://github.com/user-attachments/assets/2b78d2be-acc6-41e5-8041-5f1431b3f4e4)
