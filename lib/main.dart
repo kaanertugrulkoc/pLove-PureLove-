@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           // leading:
-          //     IconButton(onPressed: () {}, icon: const Icon(Icons.favorite)),
+          // IconButton(onPressed: () {}, icon: const Icon(Icons.favorite)),
           // centerTitle: true,
           elevation: 10,
           backgroundColor: const Color.fromARGB(255, 194, 137, 243),
