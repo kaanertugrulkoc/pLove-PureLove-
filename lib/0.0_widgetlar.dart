@@ -9,13 +9,13 @@ class MesajKarti extends StatelessWidget {
     return InkWell(
       onTap: () {},
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(1.0),
         child: Card(
           color: const Color.fromARGB(255, 235, 219, 239),
           margin: const EdgeInsetsDirectional.all(10),
           child: SizedBox(
-            width: 355,
-            height: 425,
+            width: 399,
+            height: 445,
             child: Column(
               children: [
                 Row(
