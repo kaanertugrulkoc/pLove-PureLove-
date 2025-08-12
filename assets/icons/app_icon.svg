@@ -1,0 +1,71 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arka plan daire -->
+  <circle cx="512" cy="512" r="512" fill="url(#gradient1)"/>
+  
+  <!-- Gradient tanımları -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E8B57;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20B2AA;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F8FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Ana kalp şekli -->
+  <path d="M512 200C400 200 320 280 320 400C320 500 400 600 512 700C624 600 704 500 704 400C704 280 624 200 512 200Z" 
+        fill="url(#gradient2)" 
+        stroke="url(#gradient3)" 
+        stroke-width="8"/>
+  
+  <!-- İç kalp şekli -->
+  <path d="M512 250C420 250 360 310 360 400C360 470 420 540 512 620C604 540 664 470 664 400C664 310 604 250 512 250Z" 
+        fill="url(#gradient1)" 
+        opacity="0.8"/>
+  
+  <!-- V2 yazısı -->
+  <text x="512" y="480" 
+        font-family="Arial, sans-serif" 
+        font-size="120" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="url(#gradient2)">
+    V2
+  </text>
+  
+  <!-- Dekoratif çizgiler -->
+  <line x1="200" y1="200" x2="300" y2="300" 
+        stroke="url(#gradient3)" 
+        stroke-width="4" 
+        opacity="0.6"/>
+  
+  <line x1="824" y1="200" x2="724" y2="300" 
+        stroke="url(#gradient3)" 
+        stroke-width="4" 
+        opacity="0.6"/>
+  
+  <line x1="200" y1="824" x2="300" y2="724" 
+        stroke="url(#gradient3)" 
+        stroke-width="4" 
+        opacity="0.6"/>
+  
+  <line x1="824" y1="824" x2="724" y2="724" 
+        stroke="url(#gradient3)" 
+        stroke-width="4" 
+        opacity="0.6"/>
+  
+  <!-- Köşe dekoratif elementler -->
+  <circle cx="200" cy="200" r="20" fill="url(#gradient3)" opacity="0.8"/>
+  <circle cx="824" cy="200" r="20" fill="url(#gradient3)" opacity="0.8"/>
+  <circle cx="200" cy="824" r="20" fill="url(#gradient3)" opacity="0.8"/>
+  <circle cx="824" cy="824" r="20" fill="url(#gradient3)" opacity="0.8"/>
+</svg> 
