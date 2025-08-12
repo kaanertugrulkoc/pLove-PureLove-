@@ -1,89 +1,129 @@
-import 'package:flutterprojelerim/0.0_widgetlar.dart';
-import 'package:flutterprojelerim/0.1_homescreen.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'screens/home_screen.dart';
+import 'screens/search_screen.dart';
+import 'screens/post_screen.dart';
+import 'screens/stories_screen.dart';
+import 'screens/reels_screen.dart';
+import 'screens/profile_screen.dart';
 
-void main() => runApp(const MyApp());
-
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
-
-  @override
-  State<MyApp> createState() => _MyAppState();
+void main() {
+  runApp(const PureLoveApp());
 }
 
-class _MyAppState extends State<MyApp> {
+class PureLoveApp extends StatelessWidget {
+  const PureLoveApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'pLove - PureLove V2',
       debugShowCheckedModeBanner: false,
-      title: 'PureLove',
-
-      home: Scaffold(
-        appBar: AppBar(
-          // leading:
-          // IconButton(onPressed: () {}, icon: const Icon(Icons.favorite)),
-          // centerTitle: true,
-          elevation: 10,
-          backgroundColor: const Color.fromARGB(255, 194, 137, 243),
-          shape: const RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(
-            bottomRight: Radius.circular(25),
-            bottomLeft: Radius.circular(25),
-          )),
-          title: const Text('pLove',
-              style: TextStyle(
-                fontSize: 24,
-                fontStyle: FontStyle.italic,
-                fontWeight: FontWeight.bold,
-              )), // isim daha sonra değişecek !
-
-          actions: [
-            IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  Icons.call,
-                  size: 25,
-                )),
-            IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  Icons.groups_3_outlined,
-                  size: 25,
-                )),
-            IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.notifications, size: 25)),
-            IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.mark_email_unread, size: 25)),
-          ],
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF2E8B57), // Sea Green (Turkuaz)
+          brightness: Brightness.light,
         ),
-
-        //gövde
-
-        body: SingleChildScrollView(child: HomeScreen()),
-        bottomNavigationBar: BottomNavigationBar(
-            currentIndex: 1,
-            type: BottomNavigationBarType.fixed,
-            backgroundColor: const Color.fromARGB(255, 230, 214, 243),
-            items: [
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.home), label: "Anasayfa"),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.search),
-                label: "Arama",
-              ),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.add_a_photo_outlined), label: "Yayınla"),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.cameraswitch), label: "Durum"),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.video_collection), label: "Reels"),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.person), label: "Profil"),
-            ]),
+        appBarTheme: const AppBarTheme(
+          systemOverlayStyle: SystemUiOverlayStyle.light,
+          elevation: 0,
+          centerTitle: true,
+          backgroundColor: Color(0xFF2E8B57),
+          foregroundColor: Colors.white,
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: const Color(0xFF4682B4), // Steel Blue
+            foregroundColor: Colors.white,
+            elevation: 2,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+        ),
+        cardTheme: CardTheme(
+          elevation: 3,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          color: const Color(0xFFF8F9FA),
+        ),
       ),
+      home: const MainScreen(),
+    );
+  }
+}
 
-      // düğme
+class MainScreen extends StatefulWidget {
+  const MainScreen({super.key});
+
+  @override
+  State<MainScreen> createState() => _MainScreenState();
+}
+
+class _MainScreenState extends State<MainScreen> {
+  int _currentIndex = 0;
+
+  final List<Widget> _screens = [
+    const HomeScreen(),
+    const SearchScreen(),
+    const PostScreen(),
+    const StoriesScreen(),
+    const ReelsScreen(),
+    const ProfileScreen(),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: IndexedStack(
+        index: _currentIndex,
+        children: _screens,
+      ),
+      bottomNavigationBar: NavigationBar(
+        selectedIndex: _currentIndex,
+        onDestinationSelected: (int index) {
+          setState(() {
+            _currentIndex = index;
+          });
+        },
+        backgroundColor: const Color(0xFFE8F4F8),
+        indicatorColor: const Color(0xFF2E8B57),
+        labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
+        destinations: const [
+          NavigationDestination(
+            icon: Icon(Icons.home_outlined, color: Color(0xFF4682B4)),
+            selectedIcon: Icon(Icons.home, color: Color(0xFF2E8B57)),
+            label: 'Ana Sayfa',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.search_outlined, color: Color(0xFF4682B4)),
+            selectedIcon: Icon(Icons.search, color: Color(0xFF2E8B57)),
+            label: 'Keşfet',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.add_circle_outline, color: Color(0xFF4682B4)),
+            selectedIcon: Icon(Icons.add_circle, color: Color(0xFF2E8B57)),
+            label: 'Paylaş',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.circle_outlined, color: Color(0xFF4682B4)),
+            selectedIcon: Icon(Icons.circle, color: Color(0xFF2E8B57)),
+            label: 'Hikayeler',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.play_circle_outline, color: Color(0xFF4682B4)),
+            selectedIcon: Icon(Icons.play_circle, color: Color(0xFF2E8B57)),
+            label: 'Reels',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.person_outline, color: Color(0xFF4682B4)),
+            selectedIcon: Icon(Icons.person, color: Color(0xFF2E8B57)),
+            label: 'Profil',
+          ),
+        ],
+      ),
     );
   }
 }
