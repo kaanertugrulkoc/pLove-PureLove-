@@ -210,9 +210,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosy
 
 ## 🙏 Teşekkürler
 
-- Flutter ekibine
-- Material Design ekibine
-- Açık kaynak topluluğuna
+- 
 
 ---
 
