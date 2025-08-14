@@ -82,12 +82,13 @@ class _PostCardState extends State<PostCard> {
             ),
           ),
 
-          // Etkileşim butonları
+          // Etkileşim butonları - Tümü sağ tarafta
           Padding(
             padding: const EdgeInsets.all(12),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                // Sol taraftaki butonlar
+                // Beğen butonu
                 IconButton(
                   onPressed: () {
                     setState(() {
@@ -100,6 +101,8 @@ class _PostCardState extends State<PostCard> {
                     size: 28,
                   ),
                 ),
+                
+                // Mesaj butonu
                 IconButton(
                   onPressed: () {},
                   icon: const Icon(
@@ -108,6 +111,8 @@ class _PostCardState extends State<PostCard> {
                     size: 28,
                   ),
                 ),
+                
+                // Gönder butonu
                 IconButton(
                   onPressed: () {},
                   icon: const Icon(
@@ -117,9 +122,7 @@ class _PostCardState extends State<PostCard> {
                   ),
                 ),
                 
-                const Spacer(),
-                
-                // Sağ taraftaki butonlar
+                // Paylaş butonu
                 IconButton(
                   onPressed: () {},
                   icon: const Icon(
@@ -128,6 +131,8 @@ class _PostCardState extends State<PostCard> {
                     size: 28,
                   ),
                 ),
+                
+                // Kaydet butonu
                 IconButton(
                   onPressed: () {
                     setState(() {

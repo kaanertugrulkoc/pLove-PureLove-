@@ -5,6 +5,8 @@ Modern sosyal medya uygulaması - Flutter ile geliştirildi. Instagram benzeri �
 <img width="540" height="720" alt="image" src="https://github.com/user-attachments/assets/f60b5d73-341e-49f8-85d1-a60218d22799" />
 
 
+
+
 ## 🎨 Renk Paleti
 
 ### Mavi-Gri-Turkuaz Tema
