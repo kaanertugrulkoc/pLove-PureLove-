@@ -87,6 +87,7 @@ class _PostCardState extends State<PostCard> {
             padding: const EdgeInsets.all(12),
             child: Row(
               children: [
+                // Sol taraftaki butonlar
                 IconButton(
                   onPressed: () {
                     setState(() {
@@ -95,9 +96,7 @@ class _PostCardState extends State<PostCard> {
                   },
                   icon: Icon(
                     isLiked ? Icons.favorite : Icons.favorite_border,
-                    color: isLiked
-                        ? const Color(0xFFE74C3C)
-                        : const Color(0xFF4682B4),
+                    color: isLiked ? const Color(0xFFE74C3C) : const Color(0xFF4682B4),
                     size: 28,
                   ),
                 ),
@@ -117,7 +116,18 @@ class _PostCardState extends State<PostCard> {
                     size: 28,
                   ),
                 ),
+                
                 const Spacer(),
+                
+                // Sağ taraftaki butonlar
+                IconButton(
+                  onPressed: () {},
+                  icon: const Icon(
+                    Icons.share_outlined,
+                    color: Color(0xFF4682B4),
+                    size: 28,
+                  ),
+                ),
                 IconButton(
                   onPressed: () {
                     setState(() {
@@ -126,9 +136,7 @@ class _PostCardState extends State<PostCard> {
                   },
                   icon: Icon(
                     isSaved ? Icons.bookmark : Icons.bookmark_border,
-                    color: isSaved
-                        ? const Color(0xFF2E8B57)
-                        : const Color(0xFF4682B4),
+                    color: isSaved ? const Color(0xFF2E8B57) : const Color(0xFF4682B4),
                     size: 28,
                   ),
                 ),
