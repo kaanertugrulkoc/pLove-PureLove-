@@ -31,7 +31,7 @@ class ProfileScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   const Text(
-                    'Kullanıcı Adı',
+                    'KaanErtugrulKOC',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -108,13 +108,13 @@ class ProfileScreen extends StatelessWidget {
                                 ),
                         ),
                         const SizedBox(height: 4),
-                                                 Text(
-                           index == 0 ? 'Yeni' : 'Hikaye $index',
-                           style: TextStyle(
-                             fontSize: 12,
-                             color: Colors.grey.shade700,
-                           ),
-                         ),
+                        Text(
+                          index == 0 ? 'Yeni' : 'Hikaye $index',
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: Colors.grey.shade700,
+                          ),
+                        ),
                       ],
                     ),
                   );
