@@ -82,9 +82,10 @@ class _PostCardState extends State<PostCard> {
             ),
           ),
 
-          // Etkileşim butonları - Tümü sağ tarafta
-          Padding(
-            padding: const EdgeInsets.all(12),
+          // Etkileşim butonları - Tamamen sağ tarafta
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
