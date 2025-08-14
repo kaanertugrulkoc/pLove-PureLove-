@@ -2,7 +2,7 @@
 
 Modern sosyal medya uygulaması - Flutter ile geliştirildi. Instagram benzeri özellikler içerir ve Material 3 tasarım sistemi kullanılarak oluşturulmuştur.
 
-<img width="540" height="700" alt="image" src="https://github.com/user-attachments/assets/a71c2cc8-22f9-4807-8632-1fda3f6b74cb" />
+<img width="540" height="300" alt="image" src="https://github.com/user-attachments/assets/a71c2cc8-22f9-4807-8632-1fda3f6b74cb" />
 
 
 <img width="540" height="720" alt="image" src="https://github.com/user-attachments/assets/f60b5d73-341e-49f8-85d1-a60218d22799" />
