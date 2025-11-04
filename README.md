@@ -1,6 +1,6 @@
 # pLove - PureLove V2 🚀
 
-# Çok yakında V3 güncellenecek olup V5 ile uygulamamız yayınlanmış olacak...
+# Çok yakında V3 güncellenecek olup şuan V4 geliştiriliyor V5 ile uygulamamız yayınlanmış olacak...
 
 Modern sosyal medya uygulaması - Flutter ile geliştirildi. Instagram benzeri özellikler içerir ve Material 3 tasarım sistemi kullanılarak oluşturulmuştur.
 
