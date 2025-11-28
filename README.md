@@ -2,7 +2,7 @@
 
 # Çok yakında V3 güncellenecek olup şuan V4 geliştiriliyor V5 ile uygulamamız yayınlanmış olacak...
 
-# %89b ||||||||||||||||||||
+# %92 ||||||||||||||||||||
 
 Modern sosyal medya uygulaması - Flutter ile geliştirildi. Instagram benzeri özellikler içerir ve Material 3 tasarım sistemi kullanılarak oluşturulmuştur.
 
