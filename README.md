@@ -1,6 +1,6 @@
 # pLove - PureLove V2 🚀
 
-# Çok yakında V3 güncellenecek olup şuan V4 geliştiriliyor V5 ile uygulamamız yayınlanmış olacak...
+# V4 geliştiriliyor çok yakında V5 ile uygulamamız yayınlanmış olacak...
 
 # %92 ||||||||||||||||||||
 
